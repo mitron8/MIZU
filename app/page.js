@@ -8,6 +8,7 @@ import ServicesSection from './components/ServicesSection'
 import StackingCardsSection from './components/StackingCardsSection'
 import CardRevealSection from './components/CardRevealSection'
 import BlogSection from './components/BlogSection'
+import Footer from './components/Footer'
 
 const page = () => {
   return (
@@ -21,6 +22,7 @@ const page = () => {
       <StackingCardsSection/>
       <CardRevealSection/>
       <BlogSection/>
+      <Footer/>
       
     </div>
   )
