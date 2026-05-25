@@ -61,7 +61,7 @@ const Footer = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className="group bg-white text-black rounded-full px-7 py-4 flex items-center gap-4 hover:gap-6 transition-all duration-300"
+            className="group bg-white max-w-[202px] text-black rounded-full px-7 py-4 flex items-center gap-4 hover:gap-6 transition-all duration-300"
           >
             <span className="font-medium">
               Start Project
